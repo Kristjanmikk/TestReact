@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import { createMuiTheme } from '@material-ui/core/styles';
-import green from '@material-ui/core/colors/green';
+import purple from '@material-ui/core/colors/purple';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import AppBar from '@material-ui/core/AppBar';
@@ -12,7 +12,7 @@ import RestaurantScreen from './components/RestaurantScreen';
 
 const theme = createMuiTheme({
   palette: {
-    primary: green,
+    primary: purple,
   },
 });
 
